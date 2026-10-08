@@ -365,7 +365,49 @@ export default function App() {
                 </p>
               </div>
 
-              {/* Section 4: Contact & Inquiries */}
+              {/* Section 4: Founder Bio */}
+              <div className={`border p-5 sm:p-7 space-y-3.5 rounded-sm shadow-xs backdrop-blur-xs transition-colors text-left ${
+                isDarkMode 
+                  ? "bg-[#1c1917]/90 border-[#27272a] text-[#fafaf9]" 
+                  : "bg-white border-[#1c1917] text-[#1c1917]"
+              }`}>
+                <div className={`flex items-center justify-between border-b pb-2 ${
+                  isDarkMode ? "border-[#27272a]" : "border-[#1c1917]"
+                }`}>
+                  <h2 className={`text-[11px] font-mono uppercase tracking-[0.25em] font-bold ${
+                    isDarkMode ? "text-[#fafaf9]" : "text-[#1c1917]"
+                  }`}>
+                    Founder
+                  </h2>
+                  <a 
+                    href="https://www.linkedin.com/in/oskarhiekkanen/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className={`inline-flex items-center gap-1 font-mono text-[10px] uppercase font-bold transition-colors ${boatBlueText} hover:underline`}
+                  >
+                    <span>LinkedIn</span>
+                    <ArrowUpRight size={11} />
+                  </a>
+                </div>
+                
+                <h3 className="font-serif font-bold text-base sm:text-lg text-inherit">
+                  Oskar Hiekkanen, Founder
+                </h3>
+
+                <p className={`font-serif text-sm sm:text-base leading-relaxed font-normal ${
+                  isDarkMode ? "text-[#e4e4e7]" : "text-[#292524]"
+                }`}>
+                  Fintech r&amp;d, product, consulting, and commercial background within accounting, ERP, payments, and healthcare across startups, scaleups, and multinationals—a generalist Swiss knife obsessed with real value and an avid sailor.
+                </p>
+
+                <p className={`font-serif text-sm sm:text-base leading-relaxed font-normal ${
+                  isDarkMode ? "text-[#e4e4e7]" : "text-[#292524]"
+                }`}>
+                  Educated in both business and tech.
+                </p>
+              </div>
+
+              {/* Section 5: Contact & Inquiries */}
               <div className={`border p-5 sm:p-7 space-y-4 rounded-sm shadow-xs backdrop-blur-xs transition-colors text-left ${
                 isDarkMode 
                   ? "bg-[#1c1917]/90 border-[#27272a] text-[#fafaf9]" 
