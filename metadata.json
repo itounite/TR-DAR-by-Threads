@@ -1,0 +1,8 @@
+{
+  "name": "TRÄDAR",
+  "description": "TRÅDAR (incubated by THREADS) - collector and curator of quality businesses in Nordics, Baltics & Beyond.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
